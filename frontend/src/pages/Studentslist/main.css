@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 7px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.438);
+    background-color: #a7d1e4;
+    width: 100%;
+    height: 1000px;
+    padding-top: 10px;
+
+}
+
+.menu h1{
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+    font: 700;
+}
+
+.createStudent-container{
+    width: 90%;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #b4d4e2;
+    color: rgb(71, 71, 71);
+    border-radius: 8px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.4);
+}
+
+.createStudent-container select{
+    margin-top: 5px;
+    color: rgb(71, 71, 71);
+    font: 400 16px sans-serif;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #dcdce6;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.createStudent-container .serie{
+    max-width: 40px;
+
+}
+
+.createStudent-container input{
+    margin-top: 5px;    
+    color: rgb(71, 71, 71);
+    font: 400 16px sans-serif;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #dcdce6;
+    border-radius: 5px;
+    padding: 0 10px;
+    min-width: 200px;
+}
+
+.button{
+    width: 100%;
+    height: 40px;
+    background: rgb(143, 143, 143);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 7px;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    transform: filter 0.3s;
+}
+
+.button:hover{
+    filter: brightness(90%);
+}

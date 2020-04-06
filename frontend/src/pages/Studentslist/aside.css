@@ -1,0 +1,19 @@
+.title h1 {
+    font-size: 22px;
+    color: #ffffff;
+    text-align: left;
+    font: 600;
+
+
+}
+
+.title{
+    height: auto;
+    background-color: #a1c6d6;
+
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.438);
+    margin: 8px;
+    border-radius: 8px;
+    width: 95%;
+}
